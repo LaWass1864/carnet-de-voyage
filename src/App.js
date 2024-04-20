@@ -17,7 +17,7 @@ const App = () => {
     <div>
       <h1>Plan de voyage</h1>
       <SearchInput onSearch={handleSearch} />
-      <DateInput />
+
       <SearchResultsList results={searchResults} />
     </div>
   );
