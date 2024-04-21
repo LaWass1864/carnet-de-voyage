@@ -13,6 +13,8 @@ const Login = () => {
     const utilisateur = data.utilisateurs.find(utilisateur => utilisateur.nom_utilisateur === username);
     // Vérifiez si l'utilisateur existe et si le mot de passe est correct
     if (utilisateur && utilisateur.mot_de_passe === password) {
+      // Stockez l'ID de l'utilisateur dans le stockage local après la connexion réussie
+      localStorage.setItem('userId', utilisateur.id);
       // Redirigez l'utilisateur vers la page d'accueil après la connexion réussie
       navigate(`/home/${utilisateur.numero_siege}`);
     } else {
