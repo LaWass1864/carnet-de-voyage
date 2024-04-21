@@ -1,5 +1,6 @@
 import React from 'react';
 import data from '../data.json';
+import Navigation from '../components/Navigation';
 
 const Home = () => {
   const { informations_vol, locations_de_voiture } = data;
@@ -9,6 +10,8 @@ const Home = () => {
   };
 
   return (
+    <>
+    <Navigation />
     <div className="min-h-screen bg-gray-100 flex justify-center items-center">
       <div className="max-w-3xl w-full p-6">
         {/* Informations du Vol */}
@@ -44,6 +47,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
