@@ -1,0 +1,66 @@
+{
+    "informations_vol": [
+      {
+        "id": 1,
+        "compagnie_aerienne": "Air France opéré par Delta Air Lines",
+        "aeroport_depart": "Paris CDG",
+        "aeroport_arrivee": "LAX",
+        "date_depart": "22 avril 2024",
+        "heure_decollage": "15h35",
+        "terminal": "2E",
+        "reference_reservation": "OIDMCT",
+        "heure_arrivee": "18h20",
+        "duree_vol": "11h45",
+        "statut_vol": "À l'heure",
+        "numero_vol": "DL291",
+        "type_avion": "Airbus A350-900"
+      }
+    ],
+  
+    "locations_de_voiture": [
+      {
+        "id": 1,
+        "agence_de_location": "Sixt",
+        "numero_reservation": "791297100",
+        "reference_agence": "9934313999",
+        "date_debut_location": "22/04/2024",
+        "heure_debut_location": "20:30",
+        "date_fin_location": "12/05/2024",
+        "heure_fin_location": "16H30",
+        "categorie_voiture": "RFAR",
+        "modele": "GMC Acadia ou similaire"
+      }
+    ],
+  
+    "utilisateurs": [
+      {
+        "id": "benamaouchek",
+        "nom_utilisateur": "benamaouche",
+        "prenom_utilisateur": "karina",
+        "mot_de_passe": "motdepasse1",
+        "numero_siege": "47j"
+      },
+      {
+        "id": "ataouzanim",
+        "nom_utilisateur": "ataouzani",
+        "prenom_utilisateur": "mohammed",
+        "mot_de_passe": "motdepasse2",
+        "numero_siege": "47h"
+      },
+      {
+        "id": "benamaouchea",
+        "nom_utilisateur": "benamaouche",
+        "prenom_utilisateur": "anne-marie",
+        "mot_de_passe": "motdepasse3",
+        "numero_siege": "48j"
+      },
+      {
+        "id": "amouraw",
+        "nom_utilisateur": "amoura",
+        "prenom_utilisateur": "wassila",
+        "mot_de_passe": "motdepasse4",
+        "numero_siege": "48h"
+      }
+    ]
+  }
+  
