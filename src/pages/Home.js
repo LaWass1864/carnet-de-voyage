@@ -59,8 +59,8 @@ const Home = () => {
                 ))}
             </div>
           ))}
-          {/* Affichage du numéro de siège */}
           <p><strong>Numéro de siège :</strong> {numeroSiege}</p>
+          {/* Affichage du numéro de siège */}
         </div>
 
         {/* Location de Voiture */}
