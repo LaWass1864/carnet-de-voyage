@@ -7,7 +7,8 @@ const Navigation = () => {
         <a href="#" className="mr-4 block cursor-pointer py-1.5 font-sans text-base font-medium leading-relaxed text-inherit antialiased">
           Material Tailwind
         </a>
-        <ul className="flex gap-6">
+        {/* Utiliser une classe différente pour la version mobile */}
+        <ul className="hidden lg:flex gap-6">
           <li className="flex items-center p-1 font-sans text-sm antialiased font-medium leading-normal gap-x-2">
             <a href="#" className="flex items-center">Pages</a>
           </li>
@@ -22,11 +23,10 @@ const Navigation = () => {
           </li>
         </ul>
         <div className="flex items-center justify-center gap-x-4">
-          {/* Remplacement de Log In par Home */}
           <button className="px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block" type="button">
             <a href="/home/:seatNumber">Home</a>
           </button>
-          {/* Remplacement de Sign in par Plan */}
+          {/* Remplacer Sign in par Plan */}
           <button className="select-none rounded-lg bg-gradient-to-tr from-gray-900 to-gray-800 py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block" type="button">
             <a href="/plan">Plan</a>
           </button>
@@ -35,6 +35,7 @@ const Navigation = () => {
             <a href="/details">Details</a>
           </button>
         </div>
+        {/* Afficher le bouton de menu pour les appareils mobiles */}
         <button className="relative h-6 w-6 select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden" type="button">
           <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
