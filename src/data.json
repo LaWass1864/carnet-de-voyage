@@ -1,0 +1,65 @@
+{
+  "informations_vol": [
+    {
+      "id": 1,
+      "compagnie_aerienne": "Fly High Airlines",
+      "aeroport_depart": "JFK",
+      "aeroport_arrivee": "LAX",
+      "date_depart": "22 avril 2024",
+      "heure_decollage": "14h00",
+      "terminal": "4",
+      "reference_reservation": "XYZ123",
+      "heure_arrivee": "17h00",
+      "duree_vol": "6h00",
+      "statut_vol": "À l'heure",
+      "numero_vol": "FH456",
+      "type_avion": "Boeing 787"
+    }
+  ],
+
+  "locations_de_voiture": [
+    {
+      "id": 1,
+      "agence_de_location": "Rent-A-Car",
+      "numero_reservation": "123456789",
+      "reference_agence": "987654321",
+      "date_debut_location": "22/04/2024",
+      "heure_debut_location": "20:30",
+      "date_fin_location": "12/05/2024",
+      "heure_fin_location": "16H30",
+      "categorie_voiture": "SUV",
+      "modele": "Toyota RAV4 ou similaire"
+    }
+  ],
+
+  "utilisateurs": [
+    {
+      "id": "user1",
+      "nom_utilisateur": "jdoe",
+      "prenom_utilisateur": "John",
+      "mot_de_passe": "fakepassword1",
+      "numero_siege": "47j"
+    },
+    {
+      "id": "user2",
+      "nom_utilisateur": "asmith",
+      "prenom_utilisateur": "Alice",
+      "mot_de_passe": "fakepassword2",
+      "numero_siege": "47h"
+    },
+    {
+      "id": "user3",
+      "nom_utilisateur": "bwhite",
+      "prenom_utilisateur": "Bob",
+      "mot_de_passe": "fakepassword3",
+      "numero_siege": "48j"
+    },
+    {
+      "id": "user4",
+      "nom_utilisateur": "cwilliams",
+      "prenom_utilisateur": "Carol",
+      "mot_de_passe": "fakepassword4",
+      "numero_siege": "48h"
+    }
+  ]
+}
