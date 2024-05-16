@@ -7,7 +7,8 @@ import Login from './pages/Login';
 
 const App = () => {
   // Vérifiez ici s'il y a une session active ou non
-  const isAuthenticated = false; // Remplacez par la logique réelle de vérification de l'authentification
+  const isAuthenticated = false; 
+  
 
   return (
     <BrowserRouter>
